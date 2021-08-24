@@ -1,0 +1,82 @@
+body{
+    font-family: 'IBMPlexSans' sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.green{
+    color: green;
+}
+
+.parent{
+   border: 2px solid green;
+}
+
+.text{
+    border: inherit;
+    font-size: 25px;
+}
+
+@font-face{
+    font-family: 'IBMPlexSans';
+    src: url('../../Cinema_2/fonts/IBMPlexSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'IBMPlexSans';
+    src: url('../../Cinema_2/fonts/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'IBMPlexSans';
+    src: url('../../Cinema_2/fonts/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+}
+
+.parent1 .class2{
+    color: red;
+}
+
+.class1{
+    font-size: 30px;
+}
+
+#id1{
+    color: green;
+}
+
+.class1#id1{
+    color: purple !important;
+} 
+
+.text1{
+    color:aqua;
+}
+
+.favourite{
+    color: red !important;
+}
+
+ul#summer-drinks li {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+}
+
+.favourite{
+    color: green !important;
+}
+
+.text{
+    color: red;
+}
+
+#t{
+    color: lawngreen;
+}
+
+p{
+    color: lightcoral;
+}
