@@ -160,8 +160,8 @@ nav{
     height: 221px;
     width: 426px;
     border-radius: 10px;
-    left: 952px;
-    top: 527px;
+    left: 703px;
+    top: 531px;
     background: #FFFFFF;
     box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
     text-align: center;
@@ -253,6 +253,15 @@ th svg{
    line-height: 14.2px;
    color: #ffff;
 }  
+.film_p{
+    font-size: 11px;
+    margin-left: -156px;
+    margin-top: 29px;
+    text-align: center;
+}
+.section__heading{
+    font-size: 48px;
+}
   
   /*Styles for border-radius*/
 th.check {
@@ -292,3 +301,149 @@ tbody tr:last-child td.check {
    background-color: #4c4d4f;
    height: 45px;
 }
+
+.table__text{
+    text-align: center;
+    font-size: 13px;
+    width: 521px;
+    margin-left: 143px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans';
+    padding: 13px;
+}
+
+.main__center {
+    text-align: end;
+    color: white;
+    padding-top: 100px;
+    padding-right: 50px;
+    font-size: 16px;
+    background-image: url(/img/photo_2021-09-03_17-04-23.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 685px;
+    clip-path: polygon(0% 28%, 108% 0%, 118% 62%, 0% 87%);
+    margin-top: 53px;
+}
+
+.main__text {
+    margin-right: 185px;
+}
+
+.podarok {
+    position: absolute;
+    left: 530px;
+    border-radius: 100%;
+    top: 2185px;
+}
+
+.button{
+    background-color: #a3cc40;
+    margin-right: 294px;
+    margin-top: 80px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 7px 33px 7px 33px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.present_content{
+    width: 550px;
+    text-align: right;
+    margin-right: 471px;
+    margin-top: 82px;
+}
+.Goods {
+    margin: -72px 0px 0px 502px;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods__services{
+    display: flex;
+    width: 30%;
+    margin: 20px;
+}
+
+.card {
+    width: 245px;
+    height: 331px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.picture__text {
+    margin: 55px;
+    margin-left: 5px;
+}
+
+.card__hover {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgba(163, 204, 64, 0.8);
+    clip-path: polygon(0 43%, 100% 0, 100% 100%, 0% 100%);
+    width: 98%;
+    padding-top: 100px;
+    height: 153px;
+    overflow: hidden;
+    border-radius: 10px;
+    bottom: 7px;
+    text-align: center;
+}
+
+.reviews{
+    background: url(/img/7s.png) no-repeat center/cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    justify-content: center;
+    border: none;
+    height: 792px;
+    color: white;
+}
+
+.boxx {
+    display: flex;
+}
+
+.boxx__1 {
+    width: 20%;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 9px;
+    margin: 50px;
+    margin-left: 141px;
+}
+
+.boxx__1 img {
+    width: 100%;
+}
+
+.form_s {
+    border: none;
+    width: 767px;
+    height: 527px;
+    margin: 43px 183px 61px 174px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
+}
+
+.form_s img {
+    margin-left: 27px;
+}
+
+.img-back {
+    background: url(/img/krists-luhaers-AtPWnYNDJnM-unsplash.png);
+    width: 414px;
+    height: 527px;
+    border-radius: 20px;
+}
+

@@ -6,80 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link href="./styles/reset.css" rel="stylesheet" type="text/css"> -->
-    <link href="./styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+<section class="hero">
+   <div class="container container_header">
     <!--Header-->
     <header class="header">
-        <div class="container">
             <!--Navigation bar-->
-             <nav>
-            <a href="https://innopolis.university/" title="Innopolis University" target="_blank">
-               <img class="innopolis_logo" src="img/Logo Innopolis University.png" alt="Innopolis logo">
+            <a class="header__logo" href="https://innopolis.university/" title="Innopolis University" target="_blank">
+               <img src="img/Logo Innopolis University.png" alt="Innopolis logo">
             </a>
-           <div class="nav_contact">
+           <div class="header__contact">
                <!--Top navigation items-->
-               <ul class="contact">
-                   <li>
-                       <a href="tel:+7(800)3551256">+7 (800) 355 12-56</a> 
+               <ul class="header__list header__list_top">
+                   <li class="header__item">
+                       <a class="header__link" href="tel:+7(800)3551256">+7 (800) 355 12-56</a> 
                    </li>
-                   <li>
-                       <a href="mailto:kino@innopolis.ru">kino@innopolis.ru</a>
+                   <li class="header__item">
+                       <a class="header__link" href="mailto:kino@innopolis.ru">kino@innopolis.ru</a>
                    </li>
-                   <li>
-                       <a href="https://2gis.ru/samara/search/%D0%A3%D0%BB%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B4.1">
+                   <li class="header__item">
+                       <a class="header__link" href="https://2gis.ru/samara/search/%D0%A3%D0%BB%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B4.1" target="_blank">
                            ул.Спортивная д.1 
                        </a>
                    </li>
-                   <li>
-                       <a href="tel:+7(800)3551256">
-                           <input class="button_call" type="button" value="📞 Заказать звонок">
-                       </a>
-                   </li>
-                   <li>
-                       <select class="lang_select" name="Lang">
-                           <option value="Uz">UZ</option>
-                           <option value="Ru">RU</option>
-                           <option value="En">EN</option>
-                       </select>
-                   </li>
-               </ul>
-               <!--Bottom navigation items-->         
-               <ul class="sections_nav">
-                   <li>
-                       <a href="#">
-                           EVENT DETAILS
-                       </a>
-                   </li>
-                   <li>
-                       <a href="#">
-                           SPEAKERS
-                       </a>
-                   </li>
-                   <li>
-                       <a href="#">
-                           SPONSORS
-                       </a>
-                   </li>
-                   <li>
-                       <a href="#">
-                           PAST EVENTS
-                       </a>
-                   </li> 
-                   <li>
-                       <a href="#">
-                           CONTACT
+                   <li class="header__item">
+                       <a class="header__call" href="tel:+7(800)3551256">
+                           <img src="img/phone.svg" alt="phone">
+                           <span>
+                            Заказать звонок
+                           </span>
                        </a>
                    </li>
                </ul>
+               <!--Bottom navigation items-->     
+               <nav class="header__nav">     
+                   <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link" href="#">
+                                EVENT DETAILS
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">
+                                SPEAKERS
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">
+                                SPONSORS
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">
+                                PAST EVENTS
+                            </a>
+                        </li> 
+                        <li class="header__item">
+                            <a class="header__link" href="#">
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </nav>    
            </div>
-        </nav>
-            <h1 class="main_header">Закажите билет в кино</h1>
-            <h2 class="under_main_header">Всем покупателям подарок!</h2>
-        </div>
+           <select class="header__select" name="Lang">
+            <option value="Uz">UZ</option>
+            <option value="Ru">RU</option>
+            <option value="En">EN</option>
+        </select>
     </header>
+    <h1 class="hero__title">Закажите билет в кино</h1>
+    <h2 class="hero__subtitle">Всем покупателям подарок!</h2>  
+ </div>         
+</section>
+
 </body>
 </html>
 
