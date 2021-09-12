@@ -73,12 +73,33 @@ body {
 }
 
 .header__list_top {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .header__item:not(:last-child) {
     margin-right: 50px;
 }
+
+.header__item_call{
+    margin-left: 9px;
+}
+
+.header__nav .header__item:first-child{
+     margin-right: 74px;
+}
+
+.header__nav .header__item:nth-child(2){
+    margin-right: 70px;
+}
+
+.header__nav .header__item:nth-child(3){
+    margin-right: 78px;
+}
+
+.header__nav .header__item:nth-child(4){
+    margin-right: 73px;
+}
+
 
 .header__link {
     text-decoration: none;
@@ -99,6 +120,13 @@ body {
     background-color: transparent;
     border: transparent;
     color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.header__select option{
+    color: black;
 }
 
 .header__call {
@@ -107,7 +135,7 @@ body {
     border: 1px solid #333333;
     border-radius: 6px;
     background-color: #fff;
-    padding: 3px 7px 3px 8px;
+    padding: 2px 8px 3px 8px;
     text-decoration: none;
     color: #333;
     font-weight: 500;
@@ -120,6 +148,11 @@ body {
     margin-right: 7px;
 }
 
+.header__contact{
+    flex-grow: 1;
+    padding: 0 0 0 44px;
+}
+
 /*Main headers*/
 
 .hero__title {
@@ -128,7 +161,7 @@ body {
     font-weight: 100;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 19px;
 }
 
 .hero__subtitle {
